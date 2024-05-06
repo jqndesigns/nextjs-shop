@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    flex-direction: column-reverse;
+
+    padding-bottom: 30px;
+    border-bottom: 2px solid #c7c7c7;
+  }
+}

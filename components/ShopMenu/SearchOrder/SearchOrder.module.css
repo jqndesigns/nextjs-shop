@@ -1,0 +1,17 @@
+.searchOrder {
+  width: 10%;
+  display: flex;
+  gap: 10px;
+}
+
+.searchOrder img {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .searchOrder {
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+}
